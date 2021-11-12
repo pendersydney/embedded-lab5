@@ -1,6 +1,7 @@
 # embedded-lab5
 
-C code from ECE09342: Intro to Embedded Lab 5 using the MSP430
+C code from ECE09342 Intro to Embedded using the MSP430
+Lab 5: Timer and PWM 
 
 L5Q1main.c: This program works to toggle on the Red and Green LED with a 256msec interval using the WDT timer interrupt process.
 
