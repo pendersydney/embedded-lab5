@@ -1,7 +1,7 @@
 #include <msp430.h> 
 
-void main(void)
-{
+void main(void){
+    
     WDTCTL = WDTPW + WDTHOLD;         // Stop watchdog timer
   
     P1DIR |= BIT6;             
@@ -14,6 +14,7 @@ void main(void)
     TACTL = TASSEL_2 + MC_1 + ID_3;   // SMCLK and Up Mode
 
      while(1){
+         
          P1OUT ^= BIT6;                // Red LED toggle
      }
 }
